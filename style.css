@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&display=swap');
 
+/* variaveis */
+
+:root {
+    --blue-dnc: #0c70f2;
+    --black-dnc: #303030;
+    --gray-hover: #c9c9c9;
+
+    --font-standard: 'Inter';
+}
+
+/* Definindo body e background da cor*/
 body {
     margin:0px;
     padding:0px;
@@ -15,7 +26,7 @@ body {
     width:100%;
     height: 100px;
     border: 1px solid black;
-    background-color: #303030;
+    background-color: var(--black-dnc);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +44,7 @@ body {
 
     #headerNav a {
         justify-content: space-around;
-        font-family: 'Inter';
+        font-family: var(--font-standard);
         font-style: normal;
         font-size: 25px;
         color: #FFFFFF;
@@ -41,18 +52,18 @@ body {
         
     }
     #headerNav a:hover{
-        color: #cccccc;
+        color: var(--gray-hover);
 
     }
 
     #header button {
         margin-right: 5%;
-        background: #0C70F2;
+        background: var(--blue-dnc);
         box-shadow: 3px 2px 4px 
         rgba(12, 112, 242, 0.25);
         border: 0px;
         padding: 5px 10px 5px 10px;
-        font-family: 'Inter';
+        font-family: var(--font-standard);
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -61,4 +72,47 @@ body {
         cursor: pointer;
 
     }
-/* */
+/* Form style */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+    header {
+        color: white;
+        font-family: var(--font-standard);
+
+    }
+
+    header h1 {
+        font-family: var(--font-standard);
+        font-style: normal;
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 97px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    
+    header h2 {
+        font-family: var(--font-standard);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 100px;
+    }
+
+    header .upsidedown {
+        background-color: black;
+        font-weight: bold;
+        padding: 5px;
+    }
