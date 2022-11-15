@@ -188,3 +188,74 @@ form {
         margin-top: 80px;
         cursor: pointer;
     }
+
+/* footer style*/
+
+footer {
+    width: 100%;
+    background-color: var(--blue-dnc);
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+}
+
+footer .lineOne {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .lineOne a {
+    font-family: var(--font-standard);
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+footer .lineOne a:hover {
+    color: var(--gray-hover);
+}
+
+footer h5 {
+    text-align: center;
+    background: var(--black-dnc);
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: var(--font-standard);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+footer ul {
+        list-style: none;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+}
+footer ul li {
+    text-align: center;
+    font-weight: 600;
+    font-family: var(--font-standard);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .address {
+    font-family: var(--font-standard);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    }
