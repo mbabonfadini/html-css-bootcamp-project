@@ -72,7 +72,7 @@ body {
         cursor: pointer;
 
     }
-/* Form style */
+/* header style */
 
 section {
     display: flex;
@@ -115,4 +115,76 @@ section {
         background-color: black;
         font-weight: bold;
         padding: 5px;
+    }
+
+/* Form style*/
+
+form {
+    font-family: var(--font-standard);
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    width: 600px;
+
+}
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .formGroup input {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 10px;
+        border: 0px;
+        font-family: var(--font-standard);
+        font-size: 20px;
+        
+    }
+
+    .formGroup input::placeholder {
+        color: rgba(57, 57, 57, 0.5);
+
+    }
+
+    .formGroup label {
+        margin: 10px 10px 10px 10px; 
+    }
+
+    .checkBoxItens label {
+        font-family: var(--font-standard);
+        font-size: 25px;
+        color: #FFFFFF;
+        
+    }
+
+    .checkBoxItens {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+    input[type="checkbox"]{
+        transform: scale(1.7);
+    }
+
+    input[type="submit"]{
+        background: rgba(12, 112, 242, 0.9);
+        box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+        border-radius: 10px;
+        font-family: var(--font-standard);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        padding: 10px;
+        border: 0px;
+        width: 100%;
+        margin-top: 80px;
+        cursor: pointer;
     }
