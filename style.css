@@ -288,3 +288,139 @@ footer .lineTwo a:first-child {
 footer .lineTwo a:hover{
     color: var(--gray-hover);
 }
+
+@media only screen and (max-width: 600px){
+    body {
+        margin:0px;
+        padding:0px;
+        background: linear-gradient(180deg, 
+        rgba(12, 112, 242, 0.5) 19.91%, 
+        rgba(12, 112, 242, 0) 24.84%), #303030;
+        border: 1px solid #BABABA;
+        background-repeat: no-repeat;
+    }
+    
+    /* Navegation menu */
+    #header {
+        flex-direction: column;
+    }
+    
+        #headerNav {
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            margin: 0px;
+    
+        }
+            
+        }
+        #headerNav a:hover{
+            color: var(--gray-hover);
+    
+        }
+    
+        #header button {
+            margin:0px;
+            width: 100%;
+
+    
+        }
+    /* header style */
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+        header {
+            color: white;
+            font-family: var(--font-standard);
+    
+        }
+    
+        header h1 {
+            font-family: var(--font-standard);
+            font-size: 28px;
+    
+        }
+        
+        header h2 {
+            font-size: 20px;
+            padding-right: 14px;
+            padding-left: 14px;
+        }
+    
+        header .upsidedown {
+            background-color: black;
+            font-weight: bold;
+            padding: 5px;
+        }
+    
+    /* Form style*/
+    
+    form {
+        
+        width: 90%;
+        font-size: 20px;
+    
+    }
+       
+        .checkBoxItens label {
+            font-family: var(--font-standard);
+            font-size: 18px;
+            color: #FFFFFF;
+            
+        }
+    
+    
+    /* footer style*/
+    
+    footer {
+        width: 100%;
+        background-color: var(--blue-dnc);
+    }
+    
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 330px;
+    }
+    
+    footer .lineOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+ 
+    footer .address {
+        width: 90%;
+        margin-bottom: 20px;
+        }
+    
+    footer .lineTwo {
+        display: flex;
+        height: 35px;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    footer .lineTwo a {
+        font-family: var(--font-standard);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+}
