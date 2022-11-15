@@ -259,3 +259,32 @@ footer .address {
     text-align: center;
     color: #FFFFFF;
     }
+
+footer .lineTwo {
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .lineTwo a {
+    font-family: var(--font-standard);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer .lineTwo a:first-child {
+    border-right: 2px solid white;
+}
+
+footer .lineTwo a:hover{
+    color: var(--gray-hover);
+}
